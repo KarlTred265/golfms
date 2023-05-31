@@ -22,43 +22,36 @@ const NavBar = () => {
               activeClassName={styles.Active}
               to="/"
             >
-              <i className="fa-solid fa-golf-ball-tee"></i>Social Golf World
+             <i className="fa-solid fa-golf-ball-tee"></i>Golf Home
             </NavLink>
             <NavLink
               className={styles.NavLink}
               activeClassName={styles.Active}
               to="/about us"
             >
-             <i className="fa-solid fa-address-card"></i>About us 
+             <i className="fa-solid fa-address-card"></i>About us
             </NavLink>
             <NavLink
-              to="/contact us "
+              to="/contact us"
               className={styles.NavLink}
               activeClassName={styles.Active}
             >
-            <i className="fa-solid fa-envelope"></i>Contact us  
+              <i className="fa-solid fa-envelope"></i>Contact us 
             </NavLink>
             <NavLink
-              to="/settings "
+              to="/signin"
               className={styles.NavLink}
               activeClassName={styles.Active}
             >
-            <i className="fa-solid fa-gear"></i>Settings
+              <i className="fa-solid fa-right-to-bracket"></i>Sign in
             </NavLink>
             <NavLink
-              to="/sign in "
+              to="/signup"
               className={styles.NavLink}
               activeClassName={styles.Active}
             >
-            <i className="fa-solid fa-right-to-bracket"></i>Sign in
+              <i className="fas fa-user-plus"></i>Sign up
             </NavLink>
-            <NavLink
-              to="/sign up "
-              className={styles.NavLink}
-              activeClassName={styles.Active}
-            >
-            <i className="fa-solid fa-user-plus"></i>Sign up
-            </NavLink> 
           </Nav>
         </Navbar.Collapse>
       </Container>
