@@ -14,8 +14,11 @@ import { Link, useHistory } from "react-router-dom";
 import styles from "../../styles/SignInUpForm.module.css";
 import btnStyles from "../../styles/Button.module.css";
 import appStyles from "../../App.module.css";
+import { useSetCurrentUser } from "../../contexts/CurrentUserContext";
 
 function SignInForm() {
+  const setCurrentUser = useSetCurrentUser();
+
   const [signInData, setSignInData] = useState({
     username: "",
     password: "",
@@ -27,8 +30,10 @@ function SignInForm() {
   const history = useHistory();
   const handleSubmit = async (event) => {
     event.preventDefault();
+
     try {
-      await axios.post("/dj-rest-auth/login/", signInData);
+      const { data } = await axios.post("/dj-rest-auth/login/", signInData);
+      setCurrentUser(data.user);
       history.push("/");
     } catch (err) {
       setErrors(err.response?.data);
@@ -106,7 +111,7 @@ function SignInForm() {
       >
         <Image
           className={`${appStyles.FillerImage}`}
-          src={"https://res.cloudinary.com/dannj5p63/image/upload/v1686166050/golf-1938932_640_qqdrbu.jpg"}
+          src={"https://res.cloudinary.com/dannj5p63/image/upload/v1685544596/golf-787826_640_dc1f48.png"}
         />
       </Col>
     </Row>

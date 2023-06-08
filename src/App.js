@@ -5,10 +5,7 @@ import { Route, Switch } from "react-router-dom";
 import "./api/axiosDefaults";
 import SignUpForm from "./pages/auth/SignUpForm";
 import SignInForm from "./pages/auth/SignInForm";
-import ContactUsForm from "./pages/auth/ContactUsForm";
-import AboutUsForm from "./pages/auth/AboutUsForm";
-
-
+import PostCreateForm from "./pages/posts/PostCreateForm";
 
 function App() {
   return (
@@ -16,11 +13,10 @@ function App() {
       <NavBar />
       <Container className={styles.Main}>
         <Switch>
-        <Route exact path="/" render={() => <h1>Golf Home</h1>} />
-          <Route exact path="/about us" render={() => <AboutUsForm />} />
-          <Route exact path="/contact us" render={() => <ContactUsForm />} />
+          <Route exact path="/" render={() => <h1>Home page</h1>} />
           <Route exact path="/signin" render={() => <SignInForm />} />
           <Route exact path="/signup" render={() => <SignUpForm />} />
+          <Route exact path="/posts/create" render={() => <PostCreateForm />} />
           <Route render={() => <p>Page not found!</p>} />
         </Switch>
       </Container>
