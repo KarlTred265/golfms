@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+## Portfolio sample 5 front-and Golf social media
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Skärmbild 2023-06-10 200111](https://github.com/KarlTred265/golfms/assets/131257386/6e5811c1-77b5-4a97-8350-4c596101cf09)
 
-## Available Scripts
+Golf social media is a communication platform with a sole focus on golf published images where users can like each other's images and write comments within their golf life. The purpose of the golf platform is to express yourself as a golfer about your golf life and your various golf games by publishing when you golf or about golf. The golf platform is built on the fact that you have to show your favorite golf pictures to the world.
 
-In the project directory, you can run:
+Front-and links Live: https://golfms.herokuapp.com/
 
-### `npm start`
+Front-and links: https://3000-karltred265-golfms-kud7ehgdza7.ws-eu99.gitpod.io/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Back-and links: https://golfmsapi.herokuapp.com/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## All Content and about the project's job stage and result status
 
-### `npm test`
+## User Experience (UX)
+Didn't have any User Experience (UX) Thought I didn't need anyone for this kind of work.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## All pages and functions of the Project on Image
 
-### `npm run build`
+Golf Hom Start Page
+![Golf Home](https://github.com/KarlTred265/golfms/assets/131257386/c4f0d547-d77c-4bfc-a549-67e8f9846e84)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Profile Page
+![Profile](https://github.com/KarlTred265/golfms/assets/131257386/e1ed3aac-39fa-4378-aa61-f45fdcf09b9b)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sign In and Up Page
+![Sign in](https://github.com/KarlTred265/golfms/assets/131257386/6cdadad7-036c-4374-a3e7-08641108d149)
+![Sign Up](https://github.com/KarlTred265/golfms/assets/131257386/27228063-e3be-4c47-9cf1-f5239c1e893b)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Post Page and Post And comments Page in Mobile 
+![Post](https://github.com/KarlTred265/golfms/assets/131257386/baabda78-6cae-4289-88c2-ea652a489b41)
+![Pos and comments](https://github.com/KarlTred265/golfms/assets/131257386/aba7f0c7-286f-448f-930b-97a903fba44a)
 
-### `npm run eject`
+Add Post Page
+![Addpost](https://github.com/KarlTred265/golfms/assets/131257386/aceeeae9-364a-42c8-b8ea-8bbd2e1d7f05)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Like Page
+![Like](https://github.com/KarlTred265/golfms/assets/131257386/5590698a-dbf6-4e78-9cac-57b180c6c208)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feed and Change Page
+![feed](https://github.com/KarlTred265/golfms/assets/131257386/1aa3887a-a2a3-444c-af46-efc14b19f7d2)
+![change](https://github.com/KarlTred265/golfms/assets/131257386/80bcd5a5-cdbc-4d2a-a296-e8d4c5f4a2a1)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Mobile Page of navbar options functions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+![Mobile](https://github.com/KarlTred265/golfms/assets/131257386/e82b19fa-1a8e-461d-8eb0-55a3a6ad21e5)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+I had problems getting the connection to the start page when I uploaded to herkou as you can see in the picture.
+![Not workinh](https://github.com/KarlTred265/golfms/assets/131257386/9ccd2829-51fd-4811-ba83-361941a8eb88)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The languages and step by step that I have used in the Golf Media project
 
-### Deployment
+JavaScript
+HTML5
+CSS3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The React library does the building
 
-### `npm run build` fails to minify
+React Bootstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Axios
+
+jwt decode
+
+react-router-dom
+
+drawSQL - Create Database Schema
+
+GitHub
+
+
+
+
+
