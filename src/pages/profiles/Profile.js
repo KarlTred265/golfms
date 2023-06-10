@@ -4,9 +4,10 @@ import btnStyles from "../../styles/Button.module.css";
 import { useCurrentUser } from "../../contexts/CurrentUserContext";
 import { Link } from "react-router-dom";
 import Avatar from "../../components/Avatar";
-import Button from "react-bootstrap/Button";
+import { Button } from "react-bootstrap";
 import { useSetProfileData } from "../../contexts/ProfileDataContext";
 
+//Component that is used for profile information and avatar
 const Profile = (props) => {
   const { profile, mobile, imageSize = 55 } = props;
   const { id, following_id, image, owner } = profile;
@@ -34,14 +35,14 @@ const Profile = (props) => {
           !is_owner &&
           (following_id ? (
             <Button
-              className={`${btnStyles.Button} ${btnStyles.BlackOutline}`}
+              className={`${btnStyles.Button} ${btnStyles.GreenOutline}`}
               onClick={() => handleUnfollow(profile)}
             >
               unfollow
             </Button>
           ) : (
             <Button
-              className={`${btnStyles.Button} ${btnStyles.Black}`}
+              className={`${btnStyles.Button} ${btnStyles.Green}`}
               onClick={() => handleFollow(profile)}
             >
               follow
